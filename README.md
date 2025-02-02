@@ -145,3 +145,51 @@ python manage.py test
 - **Caching:** FAQ translations are cached for 1 hour using Redis. If the translation is already cached, it will be served from the cache.
 - **Translation Fallback:** In case of translation failures, the original English text is used as a fallback.
 - **CKEditor Configuration:** The CKEditor toolbar and dimensions can be customized in the `CKEDITOR_CONFIGS` in `faq_project/settings.py`.
+
+---
+
+## Contribution Guidelines
+
+We welcome contributions to improve this project. To contribute, please follow these steps:
+
+1. **Fork the Repository:**
+   - Click the "Fork" button at the top right corner of this repository to create a copy of the repository in your GitHub account.
+
+2. **Clone the Forked Repository:**
+   - Clone the forked repository to your local machine:
+     ```bash
+     git clone https://github.com/your-username/faq-django.git
+     cd faq-django
+     ```
+
+3. **Create a New Branch:**
+   - Create a new branch for your feature or bugfix:
+     ```bash
+     git checkout -b feature-or-bugfix-name
+     ```
+
+4. **Make Your Changes:**
+   - Make the necessary changes in your local repository.
+
+5. **Commit Your Changes:**
+   - Commit your changes with a descriptive commit message:
+     ```bash
+     git add .
+     git commit -m "Description of the changes"
+     ```
+
+6. **Push Your Changes:**
+   - Push your changes to your forked repository:
+     ```bash
+     git push origin feature-or-bugfix-name
+     ```
+
+7. **Create a Pull Request:**
+   - Go to the original repository and click on the "Pull Requests" tab.
+   - Click the "New Pull Request" button and select your branch from the forked repository.
+   - Provide a clear description of your changes and submit the pull request.
+
+8. **Review Process:**
+   - Your pull request will be reviewed by the maintainers. Please be responsive to any feedback or requests for changes.
+
+Thank you for contributing to the FAQ Project!
